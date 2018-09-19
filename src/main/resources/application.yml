@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: Order
+
+  datasource:
+    url: jdbc:mysql://garfieldsen.mysql.rds.aliyuncs.com:3690/product?useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: senli
+    password: lisen88se*
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.8.56:8001/eureka
+
+
+server:
+  port: 8003
